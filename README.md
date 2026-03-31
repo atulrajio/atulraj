@@ -1,6 +1,14 @@
 # Atul Raj
 
-Builder focused on engineering systems, iterative design, and early-stage R&D.
+Hey fellow humans, I’m Atul Raj, a founder working at the intersection of orbital infrastructure, systems engineering, and long-horizon technology development.
+
+My primary focus is Graviron Aerospace, where I am building reusable orbital systems designed for disciplined, repeatable operations in Earth orbit. Graviron is centered on autonomous orbital navigation, controlled in-orbit interaction, and reusable atmospheric return, developed through incremental validation across ground, atmospheric, and glide-based testing. This is the core problem space I am committed to solving long term.
+
+Alongside Graviron, I founded NexCorp, a digital infrastructure company that builds structured, scalable systems for startups and operators. NexCorp functions as an operational and strategic platform I own, focused on high-leverage digital systems and infrastructure design, while Graviron remains my primary technical and time-intensive pursuit.
+
+My broader interest lies in how humanity builds resilient infrastructure, both on Earth and in orbit. I’m drawn to systems that are reusable, durable, and engineered with long-term consequences in mind.
+
+I actively seek conversations with engineers, researchers, and builders who care about serious space infrastructure, orbital sustainability, and disciplined execution over hype.
 
 ## Current Work
 
