@@ -1,32 +1,81 @@
 # Atul Raj
 
-Hey fellow humans, I’m Atul Raj, a founder working at the intersection of orbital infrastructure, systems engineering, and long-horizon technology development.
+Building reusable orbital systems at the intersection of aerospace, autonomy, and long-horizon engineering.
 
-My primary focus is Graviron Aerospace, where I am building reusable orbital systems designed for disciplined, repeatable operations in Earth orbit. Graviron is centered on autonomous orbital navigation, controlled in-orbit interaction, and reusable atmospheric return, developed through incremental validation across ground, atmospheric, and glide-based testing. This is the core problem space I am committed to solving long term.
+---
 
-Alongside Graviron, I founded NexCorp, a digital infrastructure company that builds structured, scalable systems for startups and operators. NexCorp functions as an operational and strategic platform I own, focused on high-leverage digital systems and infrastructure design, while Graviron remains my primary technical and time-intensive pursuit.
+## Focus
 
-My broader interest lies in how humanity builds resilient infrastructure, both on Earth and in orbit. I’m drawn to systems that are reusable, durable, and engineered with long-term consequences in mind.
+* Reusable orbital infrastructure (Graviron Aerospace)
+* Autonomous navigation & in-orbit interaction systems
+* Controlled atmospheric return & survivability engineering
+* Iterative system design (ground → atmospheric → sub-orbital → orbital)
 
-I actively seek conversations with engineers, researchers, and builders who care about serious space infrastructure, orbital sustainability, and disciplined execution over hype.
+---
 
 ## Current Work
 
-I’m currently working on exploratory R&D in aerospace systems, with a focus on
-structural design, modular thinking, and iterative digital prototyping.
+Working on early-stage R&D for **Graviron Aerospace**.
 
-Below is an **early digital prototype mesh (iteration 0.1)** from ongoing work.  
-Details are intentionally limited at this stage.
+Current direction:
 
-![Prototype mesh – iteration 0.1](prototype-mesh-iteration-0.1.png)
+* Autonomous orbital navigation system architecture
+* Simulation-driven system validation
+* Structural + control system co-design
+* Mission design focused on controlled orbital interaction
+
+> Details are intentionally limited at this stage.
+
+---
+
+## Selected Work
+
+### Orbital System Prototype (Ongoing)
+
+* Iterative system design (latest version not publicly shared)
+* Focus: controllability, survivability, and repeatability
+* Moving from conceptual geometry → system architecture
+
+---
 
 ## Philosophy
 
-- Build before announcing  
-- Iterate before optimizing  
-- Show progress, not promises  
+* Build first, talk later
+* Iterate fast, validate rigorously
+* Focus on survivability over hype
+
+---
 
 ## Notes
 
-This profile documents work-in-progress explorations.  
-Public content is shared selectively and at a high level.
+This profile reflects **active work in progress**.
+
+Most meaningful work is:
+
+* Private
+* Experimental
+* Iteration-heavy
+
+---
+
+## Contact
+
+Open to conversations with:
+
+* Engineers working on orbital systems
+* Researchers in autonomy & control
+* Builders focused on real infrastructure
+
+---
+
+## Links
+
+- Personal Website: https://atulraj.io
+- Email: hello@atulraj.io
+- LinkedIn: @atulrajio
+- 𝕏 Profile: @atulrajio
+
+##
+
+<img width="1200" height="630" alt="Graviron Aerospace" src="https://github.com/user-attachments/assets/752256eb-04e5-405d-8b23-f50109542130" />
+
