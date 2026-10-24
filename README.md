@@ -1,86 +1,30 @@
 # Atul Raj
 
-Building reusable orbital systems at the intersection of aerospace, autonomy, and long-horizon engineering.
+Founder & CEO building **Graviron Aerospace** — developing reusable orbital systems to make access to space more repeatable, scalable, and accessible.
 
----
+## What I'm Building
 
-## Focus
+My focus is on the long-term infrastructure required to make space more than a destination.
 
-* Reusable orbital infrastructure (Graviron Aerospace)
-* Autonomous navigation & in-orbit interaction systems
-* Controlled atmospheric return & survivability engineering
-* Iterative system design (ground → atmospheric → sub-orbital → orbital)
+At Graviron Aerospace, we're developing **Orbit Keeper 01**, our first vehicle in a broader vision for standardized orbital infrastructure. Our goal is to help customers access satellite capabilities without having to build and operate an entire satellite themselves.
 
----
+I believe the future of space will depend not only on launch capability, but also on what we can build, operate, and sustain once we're in orbit.
 
-## Current Work
+## Areas of Interest
 
-Working on early-stage R&D for **Graviron Aerospace**.
+- Orbital infrastructure and in-space operations
+- Aerospace systems engineering and mission architecture
+- Autonomous systems and orbital computing
+- Reusable spacecraft and long-horizon engineering
+- Building technology companies around ambitious, real-world problems
 
-Current direction:
+## How I Think
 
-* Autonomous orbital navigation system architecture
-* Simulation-driven system validation
-* Structural + control system co-design
-* Mission design focused on controlled orbital interaction
+I'm interested in turning ambitious ideas into systems that can be engineered, tested, and improved over time. I value rigorous validation, practical execution, and long-term thinking over hype.
 
-> Details are intentionally limited at this stage.
+## Connect
 
----
+I'm always interested in connecting with aerospace engineers, researchers, founders, and people working to expand humanity's capabilities in space.
 
-## Selected Work
-
-### Orbital Delta-v Calculator
-
-An educational Python tool for estimating idealized Hohmann-transfer delta-v between circular, coplanar orbits. Includes a command-line interface, input validation, automated tests, and CI.
-
-[Explore the project](./orbital-delta-v/README.md)
-
-### Orbital System Prototype (Ongoing)
-
-* Iterative system design (latest version not publicly shared)
-* Focus: controllability, survivability, and repeatability
-* Moving from conceptual geometry → system architecture
-
----
-
-## Philosophy
-
-* Build first, talk later
-* Iterate fast, validate rigorously
-* Focus on survivability over hype
-
----
-
-## Notes
-
-This profile reflects **active work in progress**.
-
-Most meaningful work is:
-
-* Private
-* Experimental
-* Iteration-heavy
-
----
-
-## Contact
-
-Open to conversations with:
-
-* Engineers working on orbital systems
-* Researchers in autonomy & control
-* Builders focused on real infrastructure
-
----
-
-## Links
-
-- Personal Website: https://atulraj.io
-- Email: hello@atulraj.io
-- LinkedIn: @atulrajio
-- 𝕏 Profile: @atulrajio
-
-##
-
-<img width="1200" height="630" alt="Graviron Aerospace" src="https://github.com/user-attachments/assets/752256eb-04e5-405d-8b23-f50109542130" />
+- **Website:** https://atulraj.io
+- **LinkedIn:** https://linkedin.com/in/atulrajio/
