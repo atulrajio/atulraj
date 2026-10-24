@@ -11,12 +11,12 @@ EARTH_MU_M3_S2 = 3.986004418e14
 def test_transfer_returns_positive_burns_and_expected_time():
     result = hohmann_transfer(7_000_000, 14_000_000, EARTH_MU_M3_S2)
 
-    assert result.first_burn_m_s == pytest.approx(1_170, abs=3)
-    assert result.second_burn_m_s == pytest.approx(976, abs=3)
+    assert result.first_burn_m_s == pytest.approx(1_167, abs=3)
+    assert result.second_burn_m_s == pytest.approx(979, abs=3)
     assert result.total_delta_v_m_s == pytest.approx(
         result.first_burn_m_s + result.second_burn_m_s
     )
-    assert result.transfer_time_s == pytest.approx(5_360, abs=20)
+    assert result.transfer_time_s == pytest.approx(5_354, abs=20)
     assert result.transfer_semimajor_axis_m == pytest.approx(10_500_000)
 
 
