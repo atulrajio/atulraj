@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbital-delta-v"
+version = "0.1.0"
+description = "Educational estimates for idealized Hohmann orbital transfers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Atul Raj" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["orbital_delta_v*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
