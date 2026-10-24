@@ -53,7 +53,7 @@ The model does **not** include perturbations, atmospheric drag, finite-burn effe
 - `orbital_delta_v/hohmann.py`: calculation and validated result type.
 - `orbital_delta_v/__main__.py`: command-line entry point.
 - `tests/test_hohmann.py`: calculation and input-validation tests.
-- `.github/workflows/tests.yml`: automated test matrix for Python 3.10–3.13.
+- `../.github/workflows/orbital-delta-v-tests.yml`: automated test matrix for Python 3.10–3.13.
 
 ## Disclaimer
 
