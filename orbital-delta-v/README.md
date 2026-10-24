@@ -1,27 +1,60 @@
 # Orbital Delta-v Calculator
 
-A small, educational Python project for estimating the idealized delta-v required for a Hohmann transfer between two circular, coplanar orbits around the same central body.
+A small, educational Python project for estimating an idealized Hohmann transfer between two circular, coplanar orbits around the same central body.
 
-## Scope
+## Quick start
 
-The first version will focus on a clearly defined calculation, unit-safe inputs, readable output, and automated tests. It is not intended for operational mission planning.
+Requires Python 3.10 or newer.
 
-## Planned features
+```bash
+python -m pip install -e ".[test]"
+python -m pytest
+```
 
-- Compute transfer-orbit periapsis and apoapsis speeds.
-- Estimate the two impulsive burns for a Hohmann transfer.
-- Validate radii and gravitational parameter inputs.
-- Provide examples using SI units (metres, seconds, and metres per second).
-- Include tests for edge cases and known relationships.
+Example: estimate a transfer between circular orbits with radii of 7,000 km and 14,000 km around Earth. Radii are measured from Earth's centre, not its surface.
 
-## Model assumptions
+```bash
+python -m orbital_delta_v \
+  --initial-radius-m 7000000 \
+  --final-radius-m 14000000 \
+  --mu-m3-s2 3.986004418e14
+```
 
-The idealized model assumes two circular, coplanar orbits; instantaneous impulses; a two-body gravitational model; and no atmospheric drag, finite-burn effects, perturbations, plane changes, or launch/landing losses.
+The command reports the two burn magnitudes, total delta-v, and idealized half-ellipse transfer time.
 
-## Status
+## Python API
 
-Initial project brief. Implementation and tests will be added in follow-up commits.
+```python
+from orbital_delta_v import hohmann_transfer
+
+result = hohmann_transfer(
+    initial_radius_m=7_000_000,
+    final_radius_m=14_000_000,
+    gravitational_parameter_m3_s2=3.986004418e14,
+)
+
+print(result.total_delta_v_m_s)
+print(result.transfer_time_s)
+```
+
+All inputs and outputs use SI units: metres, seconds, metres per second, and m³/s².
+
+## What the model assumes
+
+- Initial and target orbits are circular and coplanar.
+- The spacecraft follows an ideal two-body transfer ellipse.
+- Both burns are instantaneous impulses.
+- The central body's gravitational parameter is supplied by the caller.
+
+The model does **not** include perturbations, atmospheric drag, finite-burn effects, plane changes, launch/landing losses, spacecraft mass, or propulsion performance. It is not a complete mission design tool.
+
+## Project structure
+
+- `orbital_delta_v/hohmann.py`: calculation and validated result type.
+- `orbital_delta_v/__main__.py`: command-line entry point.
+- `tests/test_hohmann.py`: calculation and input-validation tests.
+- `../.github/workflows/orbital-delta-v-tests.yml`: automated test matrix for Python 3.10–3.13.
 
 ## Disclaimer
 
-This is an educational calculator, not a validated flight-dynamics tool. Verify the model and all outputs independently before using them for engineering decisions.
+This is an educational calculator, not a validated flight-dynamics tool. Independently verify the model, assumptions, units, and outputs before using them for engineering decisions.

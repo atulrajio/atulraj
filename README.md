@@ -30,6 +30,12 @@ Current direction:
 
 ## Selected Work
 
+### Orbital Delta-v Calculator
+
+An educational Python tool for estimating idealized Hohmann-transfer delta-v between circular, coplanar orbits. Includes a command-line interface, input validation, automated tests, and CI.
+
+[Explore the project](./orbital-delta-v/README.md)
+
 ### Orbital System Prototype (Ongoing)
 
 * Iterative system design (latest version not publicly shared)
@@ -78,4 +84,3 @@ Open to conversations with:
 ##
 
 <img width="1200" height="630" alt="Graviron Aerospace" src="https://github.com/user-attachments/assets/752256eb-04e5-405d-8b23-f50109542130" />
-
